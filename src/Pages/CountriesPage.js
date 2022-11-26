@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
 const CountriesPage = () => {
   
   const [countries, setCountries]= useState([ ])
@@ -15,7 +16,6 @@ const CountriesPage = () => {
   },[])
 
 
-  countries.map(country=>console.log(country))
 
   return (
     <div>
