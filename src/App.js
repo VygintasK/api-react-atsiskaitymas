@@ -17,7 +17,7 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
 
         <Route path='/countries' element={<CountriesPage/>}></Route>
-        <Route path='/countries/:countriesId' element={<Country/>}></Route>
+        <Route path='/countries/:cca2' element={<Country/>}></Route>
         <Route path='*' element={<h1>404 error</h1>}></Route>
       </Routes>
     </div>
