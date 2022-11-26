@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Home from "./Pages/Home"
 import CountriesPage from "./Pages/CountriesPage"
 import CountryPage from "./Pages/CountryPage"
+import AxiosHook from "./Pages/AxiosHook"
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
 
         <Route path='/countries' element={<CountriesPage/>}></Route>
         <Route path='/countries/:cca2' element={<CountryPage/>}></Route>
+        <Route path='/axiosTest' element={<AxiosHook/>}></Route>
         <Route path='*' element={<h1>404 error</h1>}></Route>
       </Routes>
     </div>
