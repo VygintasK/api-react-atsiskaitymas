@@ -10,12 +10,10 @@ const CountriesPage = () => {
       fetch('https://restcountries.com/v3.1/all')
     .then(res => res.json())
     .then(countryData =>{
-
+    
       setCountries(countryData)
     })
   },[])
-
-
 
   return (
     <div>
@@ -30,6 +28,6 @@ const CountriesPage = () => {
         )}
     </div>
   )
-}
 
+}
 export default CountriesPage
