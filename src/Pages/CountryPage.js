@@ -1,10 +1,12 @@
 import axios from 'axios';
+
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 const CountryPage = () => {
   let params = useParams();
 
+  const [loading, setLoading] = useState(true); 
   const [country, setCountry]= useState("Cia: useState")
 
   useEffect(()=>{
@@ -14,16 +16,18 @@ const CountryPage = () => {
       
       let countryOBJ=response.data[0]
         setCountry(countryOBJ)
+        setLoading(false)
 
     }
     fetchFunkcijaPerAxios()
   },[params.cca2])
-  console.log(country)
+
 
   return (
     <div>
-      {/* <h1>{country.common}</h1> */}
-       <strong>{params.cca2}</strong>
+      {loading?<h1>Loading…</h1>:
+        <h1>{ country.name.common}</h1>
+      }
     </div>
   )
 }
