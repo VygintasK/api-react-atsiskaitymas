@@ -1,0 +1,17 @@
+.countriesWrapper{
+    padding: 0.67em;
+    background-color: #504427e1;
+    width: 100%;
+    padding:70px  3% 150px;
+
+}
+
+.countriesWrapper ul{
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+}
+
+.countriesWrapper a,li,h1{
+    color: rgb(244,218,159);
+}

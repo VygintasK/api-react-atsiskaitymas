@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import "./CountriesPage.css"
 
 
 const CountriesPage = () => {
@@ -16,9 +17,9 @@ const CountriesPage = () => {
   },[])
 
   return (
-    <div>
-      <h1>Countries</h1>
-      
+    <div className='countriesWrapper'>
+      <h1>WORLDS COUNTRIES: </h1>
+      <div className='test'></div>
       {countries && (
         <ul>
           {countries.map((country,index)=> 
