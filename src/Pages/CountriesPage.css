@@ -1,8 +1,8 @@
 .countriesWrapper{
-    padding: 0.67em;
     background-color: #504427e1;
-    width: 100%;
-    padding:70px  3% 150px;
+    width: 100vw;
+    min-height:  100vh;
+    padding: 80px 70px 120px;
 
 }
 
