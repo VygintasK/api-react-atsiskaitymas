@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/api-react-atsiskaitymas' element={<Home/>}></Route>
         <Route path='/countries' element={<CountriesPage/>}></Route>
         <Route path='/countries/:cca2' element={<CountryPage/>}></Route>
-        <Route path='*' element={<h1>404 error</h1>}></Route>
+        <Route path='*' element={<h1 className="urlError">404 error - something with url maybe</h1>}></Route>
       </Routes>
       <Footer/>
     </div>
