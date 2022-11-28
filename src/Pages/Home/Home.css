@@ -8,7 +8,7 @@ padding-top: 5vh;
     position: fixed;
     top: 25%;
     left: 20%;
-    padding: 0px 0px 10px;
+    padding: 0px 10px 10px;
     box-shadow: 0px 10px 20px 5px #504427;
 }
 .home-side{
@@ -18,14 +18,15 @@ padding-top: 5vh;
     position: fixed;
     top: 0.2%;
     right: 0%;
-    /* background-color: #504427e1;; */
-    width: 700px;
-    padding: 10px 30px 10px;
+    width: 505px;
+    padding: 10px 30px 10px 0px;
+    margin-left:0px;
 }
 .search-title-small{
-    color: rgb(244,218,159);
+    color: rgba(244, 219, 159, 0.11);
     padding-right: 10px;
     font-size: medium;
+    padding-left: 0px;
 }
 .home h1,.home h4{
     color: rgb(244,218,159);
@@ -33,4 +34,27 @@ padding-top: 5vh;
 }
 .home h1,h4{
     margin:0px;
+
+}
+
+#countryInput{
+    border: none;
+    background-color: rgb(244,218,159);
+    padding: 4px;
+    font-weight: bold;
+    
+}
+#submitButton{
+    background-color: rgb(244,218,159);
+    margin-left: 10px;
+    padding: 4px 15px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+#countryInput:hover{
+    background-color: white;
+}
+#submitButton:hover{
+    background-color: white;
 }
