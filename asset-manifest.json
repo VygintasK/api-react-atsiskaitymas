@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/api-react-atsiskaitymas/static/css/main.73a7f108.css",
+    "main.js": "/api-react-atsiskaitymas/static/js/main.aa118922.js",
+    "static/js/787.aefef8b6.chunk.js": "/api-react-atsiskaitymas/static/js/787.aefef8b6.chunk.js",
+    "static/media/Main.jpg": "/api-react-atsiskaitymas/static/media/Main.81a072d6fe494f6f4678.jpg",
+    "index.html": "/api-react-atsiskaitymas/index.html",
+    "main.73a7f108.css.map": "/api-react-atsiskaitymas/static/css/main.73a7f108.css.map",
+    "main.aa118922.js.map": "/api-react-atsiskaitymas/static/js/main.aa118922.js.map",
+    "787.aefef8b6.chunk.js.map": "/api-react-atsiskaitymas/static/js/787.aefef8b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73a7f108.css",
+    "static/js/main.aa118922.js"
+  ]
+}
