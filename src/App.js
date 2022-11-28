@@ -1,11 +1,11 @@
 import {Routes,Route} from "react-router-dom"
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 
-import Home from "./Pages/Home"
-import CountriesPage from "./Pages/CountriesPage"
-import CountryPage from "./Pages/CountryPage"
+import Home from "./Pages/Home/Home"
+import CountriesPage from "./Pages/Countries/CountriesPage"
+import CountryPage from "./Pages/Country/CountryPage"
 import AxiosHook from "./Pages/AxiosHook"
-import Footer from "./Components/Footer"
+import Footer from "./Components/Footer/Footer"
 
 import './App.css';
 
@@ -24,7 +24,7 @@ function App() {
         <Route path='*' element={<h1>404 error</h1>}></Route>
         
       </Routes>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }

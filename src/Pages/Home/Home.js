@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Home.css'
 
-import Country from '../Components/Country'
+import Country from '../../Components/Country/Country'
 
 const Home = () => {
 
