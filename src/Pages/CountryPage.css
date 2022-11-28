@@ -1,13 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-/* .country-page-wrapper{
-    background-color: #504427e1;
-    width: 100vw;
-    height:  100vh;
+.country-page-wrapper{
+    padding-top: 5vh;
 
 
-} */
+}
 .country-page-wrapper h1{
     padding: 50px;
 

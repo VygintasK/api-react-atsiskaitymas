@@ -1,3 +1,6 @@
+.home-wrapper{
+padding-top: 5vh;
+}
 .home-mid{
     background-color:  rgba(80, 29, 7, 0.801);
     width: 60%;
@@ -5,14 +8,24 @@
     position: fixed;
     top: 25%;
     left: 20%;
-    padding: 7px;
+    padding: 0px 0px 10px;
     box-shadow: 0px 10px 20px 5px #504427;
 }
 .home-side{
-    background-color: #504427e1;;
-    width: 100%;
-    padding: 70px 50px 0px;
-
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    position: fixed;
+    top: 0.2%;
+    right: 0%;
+    /* background-color: #504427e1;; */
+    width: 700px;
+    padding: 10px 30px 10px;
+}
+.search-title-small{
+    color: rgb(244,218,159);
+    padding-right: 10px;
+    font-size: medium;
 }
 .home h1,.home h4{
     color: rgb(244,218,159);
