@@ -1,7 +1,7 @@
 {
   "name": "api-react-atsiskaitymas",
   "version": "0.1.0",
-  "homepage": "https://VygintasK.github.io/api-react-atsiskaitymas",
+  "homepage": "https://VygintasK.github.io/api-react-atsiskaitymas/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
