@@ -1,0 +1,60 @@
+.home-wrapper{
+padding-top: 5vh;
+}
+.home-mid{
+    background-color:  rgba(80, 29, 7, 0.801);
+    width: 60%;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    padding: 0px 10px 10px;
+    box-shadow: 0px 10px 20px 5px #504427;
+}
+.home-side{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    position: fixed;
+    top: 0.2%;
+    right: 0%;
+    width: 505px;
+    padding: 10px 30px 10px 0px;
+    margin-left:0px;
+}
+.search-title-small{
+    color: rgba(244, 219, 159, 0.11);
+    padding-right: 10px;
+    font-size: medium;
+    padding-left: 0px;
+}
+.home h1,.home h4{
+    color: rgb(244,218,159);
+
+}
+.home h1,h4{
+    margin:0px;
+
+}
+
+#countryInput{
+    border: none;
+    background-color: rgb(244,218,159);
+    padding: 4px;
+    font-weight: bold;
+    
+}
+#submitButton{
+    background-color: rgb(244,218,159);
+    margin-left: 10px;
+    padding: 4px 15px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+#countryInput:hover{
+    background-color: white;
+}
+#submitButton:hover{
+    background-color: white;
+}
