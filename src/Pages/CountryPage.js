@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import Country from '../Components/Country';
 import "./CountryPage.css"
 
 const CountryPage = () => {
@@ -24,11 +25,12 @@ const CountryPage = () => {
 
   return (
     <div className='country-page-wrapper'>
-      <div className='test'>
+      
       {loading ? <h1>Loading…</h1> :
-          <h1>{country.name.common}</h1>
-        }
-      </div>
+        <Country name={country.name.common}></Country>
+      }
+        
+      
     </div>
   )
 }

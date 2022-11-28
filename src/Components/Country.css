@@ -1,0 +1,12 @@
+.country-wrap{
+    background-color: #504427e1;
+    width: 100vw;
+    min-height:  100vh;
+    padding: 80px 70px 120px;
+}
+h1{
+    font-size: 30px;
+    padding-left: 15px 3em;
+    color: rgb(177, 61, 61);
+    opacity: 3;
+}
