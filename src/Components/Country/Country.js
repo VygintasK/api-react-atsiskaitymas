@@ -10,7 +10,7 @@ const Country = ({ name }) => {
 
   if (loading) return <p className='error-loading'><strong>Loading...</strong></p>
   if (error) return <p className='error-loading'><strong>Error, no "{name}" has been found... </strong></p>
-
+  
   return (
     <div className='country-wrap'>
       {
@@ -18,7 +18,7 @@ const Country = ({ name }) => {
           return <div key={index} className={' country'}>
             <img className='country-flag' src={country.flags.png} width="100"></img>
             <h2 className='country-title'>{country.name.common} ({country.cca2})</h2>
-            <p className='country-paragraph'>{country.name.common} a.k.a. {country.name.official}, - located in {country.continents[0]}.Its capital is {country.capital}. Country is {country.unMember ? 'a' : 'not a'} member of UN. It has population of {country.population} people. Its teritory size is {country.area}km². </p>
+            <p className='country-paragraph'>{country.name.common} a.k.a. {country.name.official}, - located in {country.continents[0]}. Its capital is {country.capital}. Country is {country.unMember ? 'a' : 'not a'} member of UN. It has population of {country.population} people. Its teritory size is {country.area}km². </p>
           </div>
         })
       }
