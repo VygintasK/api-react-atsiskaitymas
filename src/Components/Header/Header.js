@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <Link className='Header-link' to="/">HOME</Link>
+      <Link className='Header-link' to="/api-react-atsiskaitymas">HOME</Link>
       <Link className='Header-link' to="/countries">COUNTRIES</Link>
     </div>
   )

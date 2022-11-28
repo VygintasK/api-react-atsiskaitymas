@@ -5,4 +5,9 @@ body{
     background-position: top;
     background-size: cover;
 }
-
+.urlError{
+    color: rgb(255, 123, 0);
+    text-shadow: 3px 3px 5px black;
+    padding-top: 50px;
+    text-align: center;
+}
